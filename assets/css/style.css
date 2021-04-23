@@ -9,10 +9,12 @@ body {
     background-color: lightgray;
 }
 
-.navbar header {
+.navbar {
     padding-top: 15px;
     margin-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -20,4 +22,30 @@ ul li {
     display: inline-block;
     margin-left: 25px;
     vertical-align: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/local-mural-collection-fence-mural-110960618.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section img {
+    height: 200px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
