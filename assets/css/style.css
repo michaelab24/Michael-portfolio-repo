@@ -8,6 +8,13 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
 }
+
+header img {
+    border-radius: 50% 50%;
+    height: auto;
+    width: 100px;
+}
+
 .myheader h1 {
     display: inline-block;
 }
@@ -53,7 +60,7 @@ section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
@@ -63,10 +70,10 @@ section {
 }
 #my-projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 700px;
+    justify-content: center;
+    height: 500px;
 }
 .flex-container {
     display: flex;
@@ -80,4 +87,21 @@ section {
 
 .flex-container a img {
     width: 300px;
+}
+
+#contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+#resume {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    flex-direction: column ;
+}
+
+h1 {
+    flex: auto;
 }
