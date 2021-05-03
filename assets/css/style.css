@@ -89,12 +89,6 @@ section {
     width: 300px;
 }
 
-#contact-me {
-    display: flex;
-    flex-wrap: wrap;
-    float: left;
-}
-
 #resume {
     display: flex;
     flex-wrap: wrap;
@@ -104,4 +98,10 @@ section {
 
 h1 {
     flex: auto;
+}
+
+#contact-me li {
+    font-size: x-large;
+    flex-direction: column;
+    text-align: left;
 }
