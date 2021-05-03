@@ -1,3 +1,5 @@
+/* header style */
+
 .myheader {
 font-size: x-large;
 font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +21,13 @@ header img {
     display: inline-block;
 }
 
+/* body style */
+
 body {
     background-color: lightgray;
 }
+
+/* navbar style */
 
 .navbar {
     padding-top: 15px;
@@ -39,10 +45,14 @@ body {
     margin-left: 25px;
 }
 
+/* about me style */
+
 p {
     font-size: 18px;
     flex-wrap: inherit;
 }
+
+/* hero style */
 
 .hero {
     height: 250px;
@@ -53,9 +63,13 @@ p {
     background-position: center;
 }
 
+/* image style */
+
 section img {
     height: 200px;
 }
+
+/* section style */
 
 section {
     margin-bottom: 20px;
@@ -68,6 +82,8 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
 }
+/* project style */
+
 #my-projects {
     display: flex;
     flex-direction: column;
@@ -75,6 +91,20 @@ section {
     justify-content: center;
     height: 500px;
 }
+
+h1 {
+    flex: auto;
+}
+
+/* contact style */
+
+#contact-me li {
+    font-size: x-large;
+    flex-direction: column;
+}
+
+/* flex style */
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,11 +120,5 @@ section {
 }
 
 
-h1 {
-    flex: auto;
-}
 
-#contact-me li {
-    font-size: x-large;
-    flex-direction: column;
-}
+
