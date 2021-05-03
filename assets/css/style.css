@@ -41,6 +41,7 @@ body {
 
 p {
     font-size: 18px;
+    flex-wrap: inherit;
 }
 
 .hero {
@@ -66,7 +67,6 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 #my-projects {
     display: flex;
@@ -89,12 +89,6 @@ section {
     width: 300px;
 }
 
-#resume {
-    display: flex;
-    flex-wrap: wrap;
-    float: right;
-    flex-direction: column ;
-}
 
 h1 {
     flex: auto;
@@ -103,5 +97,4 @@ h1 {
 #contact-me li {
     font-size: x-large;
     flex-direction: column;
-    text-align: left;
 }
