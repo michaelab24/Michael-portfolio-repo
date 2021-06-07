@@ -69,6 +69,7 @@ section img {
     height: 200px;
 }
 
+
 /* section style */
 
 section {
@@ -115,10 +116,9 @@ h1 {
     width: 50%;
 }
 
-.flex-container a img {
+/*.flex-container a img {
     width: 300px;
 }
-
-
+*/
 
 
